@@ -2,17 +2,22 @@
 
 //take user input
 //convert user input to string
+//END USER LOGIC
+
+//BEGIN BUSINESS LOGIC
+//assign results to var sentenceBefore
+var sentenceBefore = "don't compare yourself to others, compare yourself to the person you were yesterday";
+
+//remove punctuation
 //remove spaces
 //count characters
-//remove punctuation
-//ASSIGN THE RESULT TO var sentence
+//ASSIGN THE RESULT TO var sentenceAfter
 
 
-//this is assigning the var sentence to an example user imput in order to complete buisness logic first
-var sentence = 
 
 
-var cryptoSquare = function(sentence) {
+
+var cryptoSquare = function(sentenceBefore) {
   return true;
 }
 

@@ -1,6 +1,6 @@
 describe('cryptoSquare', function() {
   it("is true when there is input", function() {
-    expect(cryptoSquare(sentence)).to.equal(true);
+    expect(cryptoSquare(sentenceBefore)).to.equal(true);
   });
 });
 
