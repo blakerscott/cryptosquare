@@ -9,15 +9,30 @@
 //remove punctuation, spaces
 var sentenceBefore = "don't compare yourself to others, compare yourself to the person you were yesterday".replace(/[.,\/#!$%\^&\*;:'{}=\-_`~()]/g,"").replace(/ /g, '');
 
-var sentenceDuring = sentenceBefore;
-console.log("sentence before: ", sentenceDuring)
+//sentence w/o spaces and punct
+var sentenceCount = sentenceBefore;
+console.log("sentence before: ", sentenceCount)
 
-//count characters
-var sentenceDuring = sentenceDuring.length;
+// sentenceCount.shift()
+// return array1
 
-//pop off the first 9 letters, index 0-8, into a new array
-var sentenceFirstArray = [sentenceBefore]
-console.log("sentence as array: ", sentenceFirstArray)
+
+
+
+//shift items out of array
+var sentenceChop = sentenceCount.shift();
+console.log("letters in 1st array: ", sentenceChop)
+
+
+
+
+// //sentenceDuring into new array
+// var sentenceArray = [sentenceBefore]
+// console.log("sentence as array: ", sentenceArray)
+
+
+
+
 
 
 
