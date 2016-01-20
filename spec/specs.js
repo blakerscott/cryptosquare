@@ -3,8 +3,12 @@ describe('cryptoSquare', function() {
     expect(cryptoSquare(sentenceBefore)).to.equal(true);
   });
 
-  it("is true if there is no punctuation in the string", function() {
+  it("is true if there is no punctuation or spaces in the string", function() {
     expect(cryptoSquare(sentenceBefore)).to.equal(true);
+  });
+
+  it("is false if characters are not counted accurately", function() {
+    expect(cryptoSquare(sentenceDuring)).to.equal(false);
   });
 });
 
